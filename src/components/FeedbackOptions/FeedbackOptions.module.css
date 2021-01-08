@@ -1,0 +1,14 @@
+.btnsBlock {
+  margin-left: 10px;
+}
+
+.button + .button {
+  margin-left: 2px;
+}
+.button {
+  border-radius: 10px;
+  outline: none;
+}
+.button:active {
+  background-color: rgb(61, 86, 231);
+}
