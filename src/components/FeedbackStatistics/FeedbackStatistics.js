@@ -3,11 +3,11 @@ import PropTypes from 'prop-types';
 import s from './FeedbackStatistics.module.css';
 
 export default function FeedbackStatistics({
-  good,
-  neutral,
-  bad,
-  total,
-  positivePercentage,
+  good = 0,
+  neutral = 0,
+  bad = 0,
+  total = 0,
+  positivePercentage = '0',
 }) {
   return (
     <ul className={s.list}>
